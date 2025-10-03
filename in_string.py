@@ -1,10 +1,9 @@
 def check_vowels():
     # Código a implementar utilizando input.
 
-    user = input("> ")
+    user = input("")
 
     vowels = "aeiou"
-    tieneTilde = False
 
     for i in vowels:
         j = i in user.lower()
